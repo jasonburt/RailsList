@@ -1,0 +1,52 @@
+<div id="mainMarq"></div>
+
+<table class="tasksHomeList">
+  <tr>
+    <th><span class="text-info">Task</span></th>
+    <!--<th>Notes</th>-->
+    <th><span class="muted">Status </span></th>
+    <th></th>
+    <th><span class="muted">Actions</span></th>
+    <th></th>
+  </tr>
+
+<% @tasks.each do |task| %>
+  <tr>
+    <td><strong><%= task.name %></strong></td>
+    <!--<td><%= task.notes %></td>-->
+    <td>
+      <% if task.status == true %>
+        <span class="icon-ok"></span>
+        <% else %>
+          <span class="icon-minus"></span>
+        <% end %>
+    </td>
+    <td><%= link_to 'Info', task , :class=> ''%></td>
+    <td><%= link_to 'Edit', edit_task_path(task) %></td>
+    <td><%= link_to 'Remove', task, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<!--<%= link_to 'New Task', new_task_path, :class => 'btn-primary' %>-->
+
+<script>
+
+var list = ['What if the world had more then lists?', 'What if it had Todos?', 'like a big list of ToDos?', 'Really, I mean like allot of ToDos!', 'We apologize, those that have written the Marquee have been sacked.'];  // list of blurbs
+
+var txt = $('#mainMarq');  // The container in which to render the list
+
+var options = {
+  duration: 1000,          // Time (ms) each blurb will remain on screen
+  rearrangeDuration: 1000, // Time (ms) a character takes to reach its position
+  effect: 'random',        // Animation effect the characters use to appear
+  centered: true           // Centers the text relative to its container
+}
+
+txt.textualizer(list, options); // textualize it!
+txt.textualizer('start'); // start
+
+
+</script>

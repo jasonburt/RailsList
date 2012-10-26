@@ -1,0 +1,109 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+//Navigation
+#TopNav{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	width: 1060px;
+	background:#EEE;
+}
+#TopNav.nav{
+	float:left;
+	width:80%;
+}
+
+.TopNavId{
+	float:right;
+	margin:10px;
+}
+
+.TopNavId span{ margin-left: 3px;}
+
+.brand:hover{
+	background-color: #E5E5E5;
+	-webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+	-moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+	box-shadow: inset 0 3px 8px;
+	padding: 12px 20px 10px; 
+}
+
+.brand{padding: 12px 20px 10px;}
+
+#mainMarq{
+	font-family: 'Arial',sans-serif;
+	margin-left: auto;
+	font-size: 30px;
+	width: 600px;
+	height: 80px;
+	margin-right: auto;
+}
+#MainCenter{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+
+
+#MainCenter a:hover{
+	text-decoration: none;
+}
+
+//general forms
+form{
+	width: 40%;
+}
+
+form.actions{}
+
+.field {height:20px;}
+
+.field label{
+	width: 30%;
+	position: relative;
+	float: left;
+}
+
+.field input{
+	width: 60%;
+	position: relative;
+	float: left;
+}
+
+//tasks layout
+
+.taskMoreInfo{margin-left: 100px;}
+
+.tasksHomeList {width: 80%; text-align: center; }
+.tasksHomeList tr{ font-size:20px; height: 40px;}
+.tasksHomeList td{ font-size:16px;}
+
+.tasksHomeList a:hover{
+	background:#FFF;
+	color:#BBB;
+}
+
+#RecentTasks{margin-top:40px;}
+.recentTasksViewed{width: 80%; text-align: center; }
+.recentTasksViewed tr{ font-size:20px; height: 30px;}
+.recentTasksViewed td{ font-size:16px;}
+.recentTasksViewed  a:hover{
+	background:#FFF;
+	color:#BBB;
+}
+
+.btn input{ background:none;}
+
+.btn-primary.submit{
+	clear: both;
+	position: relative;
+	margin-top: 10px;
+
+}
+
+.tasksHomeList .btn a:visited{
+	color: #FFF;
+}

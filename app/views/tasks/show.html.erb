@@ -1,0 +1,48 @@
+<h3><span class="text-info">Task </span><%= @task.name %></h3>
+<p id="notice"><%= notice %></p>
+<div class="taskMoreInfo">
+	<p>
+	  <b>Notes:</b>
+	  <%= @task.notes %>
+	</p>
+
+	<p>
+	  <b>Status:</b>
+	   <% if @task.status == true %>
+	        <span class="icon-ok"></span>
+	    <% else %>
+	    	<span class="icon-minus"></span> Not Done
+	    <% end %>
+	</p>
+	
+	<%= link_to 'Edit', edit_task_path(@task), :class => 'btn btn-primary submit'  %>
+</div>
+
+<div id="RecentTasks">
+	<h3 ><span class="text-success"> Recent</span> Tasks</h3>
+
+	 <table class="recentTasksViewed">
+	 	<tr>
+		    <th><span class="muted">Task</span></th>
+		    <!--<th>Notes</th>-->
+		    <th><span class="muted">Status</span></th>
+		    <th></th>
+		    <th></th>
+		    <th></th>
+	  	</tr>
+	   <% session[:tasks_viewed].take(5).each do |task| %>
+	    <tr>
+	      <td><strong><%= task.name %></strong></td>
+	      <!--<td><%= task.notes %></td>-->
+	      <td>
+	      	<% if task.status == true %>
+        		<span class="icon-ok"></span>
+        	<% else %>
+          		<span class="icon-minus"></span>
+        	<% end %>
+	      </td>
+	      <td><%= link_to 'Show', task %></td>
+	    </tr>
+	   <% end %>
+	 </table>
+</div>

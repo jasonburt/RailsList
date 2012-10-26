@@ -1,0 +1,425 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getallheaders"
+			],
+			[
+				"list",
+				"listOfToDos"
+			],
+			[
+				"excti",
+				"excitingTweet"
+			],
+			[
+				"twitter",
+				"twitter-stream"
+			],
+			[
+				"ex",
+				"excitingContent"
+			],
+			[
+				"twitt",
+				"twitter-stream"
+			],
+			[
+				"jQuery",
+				"jQuery"
+			],
+			[
+				"load",
+				"loadPlayerLetters"
+			],
+			[
+				"letter",
+				"letterstring"
+			],
+			[
+				"current",
+				"current_game_data"
+			],
+			[
+				"remaining",
+				"remainingLetters"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"count",
+				"count_numb"
+			],
+			[
+				"curren",
+				"current_game_letters"
+			],
+			[
+				"last",
+				"last_letter_time"
+			],
+			[
+				"mod",
+				"mod_check"
+			],
+			[
+				"word",
+				"word_score"
+			],
+			[
+				"sc",
+				"Score_word"
+			],
+			[
+				"wor",
+				"word_score"
+			],
+			[
+				"tile",
+				"tilePosition"
+			],
+			[
+				"score",
+				"Score_tile"
+			],
+			[
+				"total",
+				"total_word_score"
+			],
+			[
+				"hor",
+				"horizontal_word_score"
+			],
+			[
+				"vertical_word",
+				"vertical_word_score"
+			],
+			[
+				"letters",
+				"letters_score"
+			],
+			[
+				"verti",
+				"vertical_word_score"
+			],
+			[
+				"a",
+				"active"
+			],
+			[
+				"remov",
+				"removeClass"
+			],
+			[
+				"vertic",
+				"vertical_word"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/views/tasks/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 631,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/tasks/_form.html.erb",
+			"settings":
+			{
+				"buffer_size": 724,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 588,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/tasks.css.scss",
+			"settings":
+			{
+				"buffer_size": 1046,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Jason/repos/silex/web/index.php",
+		"/Users/Jason/rails-rehashtag/log/development.log",
+		"/Users/Jason/repos/silex/.htaccess",
+		"/Users/Jason/repos/adwords-optimizer/AdwordsSand.php",
+		"/Users/Jason/repos/prototype/assets/letters/letters",
+		"/Users/Jason/repos/prototype/assets/css/style.css",
+		"/Users/Jason/repos/prototype/AvaTest/AccountSvc.wsdl",
+		"/Users/Jason/repos/prototype/AvaTest/AccountCreationTest.php",
+		"/Users/Jason/repos/prototype/AvaTest/AccountSvc.wsdl.html",
+		"/Users/Jason/repos/prototype/assets/game/start_data",
+		"/Users/Jason/repos/prototype/assets/game/player-2",
+		"/Users/Jason/repos/Random scraps for rehashtag/initial words static",
+		"/Users/Jason/repos/prototype/assets/js/words.js",
+		"/Users/Jason/repos/prototype/assets/letters/letters.txt",
+		"/Users/Jason/repos/prototype/assets/letters/letters.json",
+		"/Users/Jason/repos/prototype/assets/js/main.js",
+		"/Users/Jason/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"btn btn-large btn-primary letter doubleLetter ui-draggable ui-droppable",
+			"swapTil",
+			".delegate(",
+			"setTileDragging",
+			"lastWordScoreValue ",
+			"play",
+			"LastWord",
+			"check_total",
+			"total_word_score",
+			"map",
+			"check_word",
+			"check_word_against_dic",
+			"each",
+			"used",
+			"start_data",
+			"check_words_hor",
+			"boom",
+			"this"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"remaining"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/views/tasks/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 631,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								150
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/tasks/_form.html.erb",
+					"settings":
+					{
+						"buffer_size": 724,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								701,
+								678
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 588,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43,
+								43
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/assets/stylesheets/tasks.css.scss",
+					"settings":
+					{
+						"buffer_size": 1046,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								610,
+								413
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

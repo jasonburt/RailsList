@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>todo</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+  <%= javascript_tag "var AUTH_TOKEN = #{form_authenticity_token.inspect};" if protect_against_forgery? %>
+</head>
+<body>
+	<div id="TopNav">
+		<div class="navbar">
+		  <div class="navbar-inner">
+		    <a class="brand" href="/">List</a>
+		    <ul class="nav">
+		       <li ><a href="/tasks/new">Add</a></li>
+		    </ul>
+		    <div class="TopNavId">Welcome <%=session[:user_name]%><span class="icon-user"></span></div>
+		  </div>
+		</div>
+	</div>
+	<div id="MainCenter">
+		<%= yield %>
+	</div>
+</body>
+</html>
+

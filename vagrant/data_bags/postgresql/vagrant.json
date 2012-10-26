@@ -1,0 +1,18 @@
+{
+    "id": "vagrant",
+    "users": [
+        {
+            "username":"rehashtag",
+            "password":"reh#shtag"
+        }
+    ],
+    "databases": [
+        {
+            "name":"rehashtag",
+            "owner":"rehashtag", 
+            "template":"template0",
+            "encoding": "utf8",
+            "collation": "en_US.utf8"
+        }
+    ] 
+}

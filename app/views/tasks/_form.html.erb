@@ -1,0 +1,51 @@
+<%= form_for(@task) do |f| %>
+  <% if @task.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@task.errors.count, "error") %> prohibited this task from being saved:</h2>
+
+      <ul>
+      <% @task.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field control-group">
+    <%= f.label :name, :id => 'namelabel' %>
+    <%= f.text_field :name, :class => 'required' %>
+  </div>
+  <div class="field">
+    <%= f.label :notes %>
+    <%= f.text_field :notes %>
+  </div>
+
+  <div class="field required">
+    <%= f.label :status %><br />
+    <%= f.check_box :status %>
+  </div>
+  <div class="actions">
+    <%= f.submit 'Add it', :class => 'btn btn-primary submit' %>
+  </div>
+  <script>jQuery('.submit').click(function(e){
+    //alert(AUTH_TOKEN);
+        if (jQuery('#task_name').val() == '') {
+          e.preventDefault();
+          jQuery( '#task_name').parent().addClass( 'error' );
+          jQuery( '#namelabel' ).text( 'Name required' );
+          jQuery( this ).parent().children( '.ajax-feedback' ).fadeIn();
+        }else{
+          // task = new Object();
+          // task['notes'] = encodeURIComponent(jQuery('#task_notes').val());
+          // task['name'] = encodeURIComponent(jQuery('#task_name').val());
+          // task['status']= encodeURIComponent(jQuery('#task_status').val());
+          // //$.post("/tasks", { task[name]: jQuery('#task_name').val(), task[notes]: jQuery('#task_notes').val(), task[status]: jQuery('#task_status').val(), commit: 'Add it') } );
+          // $.post("/tasks", { utf8: '✓', tasks:  task, authenticity_token: encodeURIComponent(AUTH_TOKEN),  commit:  'Add it'},
+          //   function(data) {
+          //     //alert("success");
+          //     window.location = "/";
+          //   }
+          // );
+        }
+  });</script>
+<% end %>
